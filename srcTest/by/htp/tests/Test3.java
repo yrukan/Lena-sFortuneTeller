@@ -19,7 +19,7 @@ public class Test3 {
 	//Check that camomile has correct number of petals
 	public void test() {
 		int result = cam.getPetalCount();
-		assertTrue(result == 0 || result == 4);
+		assertTrue(result != 0);
 	}
 
 }
